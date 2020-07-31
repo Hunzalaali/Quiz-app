@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+
+    <div class="title">
+        <h1>Quiz</h1>
+    </div>
+    
+
+    <div class="name">
+        Enter Your Name:
+        <br>
+        <input  id="inputName" class="type" type="text">
+        <br>
+        <button class="btn" onclick="showQuestions('0');" >Enter</button>
+
+    </div>
+
+
+
+    <div class="main" id="main">
+        <div class="header">
+            Question <span id="question-no">0</span> of 5
+
+        </div>
+        <div class="questions-box">
+            <div id="ques" class="question">
+
+            </div>
+            <form name="radioAnswers">
+
+                <br>
+                <input name="ans" type="radio" id="opt1">
+                <label for="opt1" id="op1"></label><br>
+                <input name="ans" type="radio" id="opt2">
+                <label for="opt2" id="op2"></label><br>
+                <input name="ans" type="radio" id="opt3">
+                <label for="opt3" id="op3"></label>
+            </form>
+            
+            
+
+
+
+        </div>
+        <div class="next">
+            <button id="nextBtn" onclick="nextQuestion()" class="btn">Next</button>
+        </div>
+
+    </div>
+
+
+
+    <div class="result">
+        <h1>Congratulations!</h1>
+        <h3><span id="userName"></span>, you scored <span id="score"></span>/50</h3>
+        <button class="btn" onclick="location.href = 'index.html';">Start Again</button>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

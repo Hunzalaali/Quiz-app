@@ -1,0 +1,110 @@
+body{
+    
+    background-image: url("bg-color.jpg");
+    
+}
+
+.name{
+    color: white;
+    font-size: 35px;
+    margin: auto;
+    
+    text-align: center;
+    margin-top:  50px;
+}
+
+.type{
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 30px;
+    text-align: center;
+}
+* :focus{
+    outline: none;
+}
+
+.btn{
+    background-image: linear-gradient(to bottom right, #33ccff 39%, #ffffff 100%);
+    padding: 8px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.title{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 40px;
+}
+.main{
+    border: white 2px solid;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    margin-top: 50px;
+}
+
+.header{
+    text-align: center;
+    font-size: 35px;
+    border: white 2px solid;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.opts{
+    background-color: green;
+    margin-bottom: 5px;
+}
+.opts :hover{
+    background-color: gray;
+}
+.next{
+    border: white 2px solid;
+    
+    padding-left: 65%;
+    padding-bottom: 10px;
+    
+    
+}
+
+.questions-box{
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.btnSubmit{
+    background-image: linear-gradient(to bottom right, #33ccff 39%, #ffffff 100%);
+    padding: 8px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 50%;
+    margin-bottom: 10px;
+}
+
+.result{
+    color: white;
+    font-size: 35px;
+    margin: auto;
+    
+    text-align: center;
+    margin-top:  80px;
+    margin-bottom: 20px;
+}
+
+.hidden{
+    display: none;
+}
